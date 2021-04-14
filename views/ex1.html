@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content ="width=device-width, initial-scale=1.0">
+
+    </head>
+    <body>
+        <h2>Sample Form</h2>
+        <form>
+            <label for="text">   Name:  </label>
+            <input type="text" name="name" id="name"><br>
+            <label for="text">E-mail: </label>
+            <input type ="text" name = "email" id = "email"><br>
+        <p></p>
+
+            Payment Type:<br>
+            <input type="radio" id = "cash" name="payment" value="cash" checked>
+            <label for="cash">Cash</label><br>
+            <input type="radio" id = "credit" name="payment" value ="credit">
+            <label for="credit">Credit</label><br>
+            <input type="radio" id = "google" name="payment" value = "google">
+            <label for="google">Google Pay</label><br>
+            <input type="radio" id = "apple" name="payment" value="apple">
+            <label for="apple">Apple Pay</label><br>
+        <p></p>
+            <input type= "checkbox" id="promotion" name="promotion" >
+            <label for ="promotion">Sign me up for special promotions!</label>
+        <p></p>
+            Preferred Location:
+            <select id="location" name = "location">
+                <option value ="Los Angeles" id="Los Angeles" value="los angeles">Los Angeles</option>
+                <option value ="Orange County" id="Orange County" value = "orange county">Orange County</option>
+                <option value ="Riverside" id="Riverside" value ="riverside">Riverside</option>
+                <option value ="San Diego" id="San Diego" value = "san diego">San Diego</option>
+            </select><br>
+            <br>
+            <input type="submit" value = "Submit">
+            <input type="submit" value = "Cancel">
+        </form>
+    <p id="result"></p>
+
+    <script src="/ex1.js"></script>
+    </body>
+</html>
